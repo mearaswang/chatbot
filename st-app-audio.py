@@ -24,7 +24,7 @@ from langchain_core.runnables import RunnablePassthrough
 warnings.filterwarnings("ignore")
 
 # Set up Streamlit app
-st.set_page_config(page_title="Jarvis", layout="wide")
+st.set_page_config(page_title="Jarvis Audio", layout="wide")
 st.markdown("<h1 style='text-align: center;'>Jarvis Healthcare V1.1 Audio</h1>", unsafe_allow_html=True)
 st.logo("Images/Jarvis.png")
 left_co, cent_co,last_co = st.columns(3)
